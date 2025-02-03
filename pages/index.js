@@ -1,114 +1,126 @@
+import Announcements from "./components/Announcements";
 import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export default function Home() {
   return (
-    <div
-      className={`${geistSans.variable} ${geistMono.variable} grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]`}
-    >
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              pages/index.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div>
+      <h1 className="text-2xl font-bold">Welcome to D. A. V. Subathu</h1>
+      <div >
+        {/* Hero Section */}
+        <section className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20">
+          <div className="container mx-auto text-center">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">
+              Welcome to D. A. V. Subathu
+            </h1>
+            <p className="text-lg md:text-2xl mb-6">
+              A place where learning meets excellence.
+            </p>
+            <button className="bg-white text-blue-600 px-6 py-3 rounded-full shadow-lg hover:bg-blue-100 transition duration-300">
+              Explore Now
+            </button>
+          </div>
+        </section>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        {/* School Photo Section */}
+        <section className="py-10 bg-gray-100">
+          <div className="container mx-auto">
+            <div
+              class="relative max-w-full overflow-hidden bg-cover bg-no-repeat"
+              data-twe-ripple-init
+              data-twe-ripple-color="light">
+              <img
+                src="/DAV_School.jpg"
+                class="max-w-full"
+                alt="Louvre" />
+              <a href="#!">
+                <div
+                  class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+              </a>
+            </div>
+
+          </div>
+        </section>
+
+        {/* Announcements Section */}
+        <section className="py-10 bg-gray-100">
+          <div className="container mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">
+              Announcements
+            </h2>
+            <Announcements />
+          </div>
+        </section>
+
+        {/* Features Section */}
+        <section className="py-20 bg-white">
+          <div className="container mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-8 text-gray-800">
+              Why Choose Us?
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {/* Feature 1 */}
+              <div className="p-6 border rounded-lg shadow hover:shadow-lg transition duration-300">
+                <img
+                  src="/Academic_Excellence.jpg"
+                  alt="Academic Excellence"
+                  className="w-full mx-auto mb-2"
+                />
+                <h3 className="text-xl font-semibold mb-2">Academic Excellence</h3>
+                <p className="text-gray-600">
+                  Our curriculum is designed to inspire creativity and critical
+                  thinking.
+                </p>
+              </div>
+
+              {/* Feature 2 */}
+              <div className="p-6 border rounded-lg shadow hover:shadow-lg transition duration-300">
+                <img
+                  src="/ExtraCurricular.jpg"
+                  alt="Extracurricular Activities"
+                  className="w-full mx-auto mb-2"
+                />
+                <h3 className="text-xl font-semibold mb-2">
+                  Extracurricular Activities
+                </h3>
+                <p className="text-gray-600">
+                  From sports to arts, we provide a holistic learning experience.
+                </p>
+              </div>
+
+              {/* Feature 3 */}
+              <div className="p-6 border rounded-lg shadow hover:shadow-lg transition duration-300">
+                <img
+                  src="/Expert_teachers.png"
+                  alt="Expert Teachers"
+                  className="w-full mx-auto mb-2"
+                />
+                <h3 className="text-xl font-semibold mb-2">Expert Teachers</h3>
+                <p className="text-gray-600">
+                  Our dedicated and experienced staff ensure quality education.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Call to Action */}
+        <section className="py-10 bg-gradient-to-r from-green-500 to-teal-600 text-white">
+          <div className="container mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-4">
+              Ready to Join Our Community?
+            </h2>
+            <p className="text-lg mb-6">
+              Enroll now and be part of our thriving educational family!
+            </p>
+            <button className="bg-white text-green-600 px-6 py-3 rounded-full shadow-lg hover:bg-gray-100 transition duration-300">
+              Apply Now
+            </button>
+          </div>
+        </section>
+      </div>
+
+      <Announcements />
+
     </div>
   );
 }
