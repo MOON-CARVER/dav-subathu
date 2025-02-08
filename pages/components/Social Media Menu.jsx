@@ -12,7 +12,7 @@ const SocialMenu = () => {
         className="bg-white text-red-600 px-6 py-3 rounded-lg shadow-lg hover:bg-gray-100 transition duration-300"
         onMouseEnter={() => setIsOpen(true)}
         onMouseLeave={() => setIsOpen(false)}
-        onClick={isOpen?()=>setIsOpen(false): ()=>setIsOpen(true)}
+        onClick ={isOpen?()=>setIsOpen(false): ()=>setIsOpen(true)}
       >
         <span className="text-md font-bold">Follow Us</span>
         <motion.div
@@ -22,7 +22,7 @@ const SocialMenu = () => {
           className="absolute top-12 left-1/2 transform -translate-x-1/2 bg-white shadow-lg rounded-lg p-2 flex space-x-3"
         >
           <a href="#" className="text-blue-600 text-xl hover:text-blue-800"><FaFacebook /></a>
-          <a href="#" className="text-blue-400 text-xl hover:text-blue-600"><FaWhatsapp /></a>
+          <a href="https://wa.me/9317427672?text=Hy%2C%0AI%20am%20interested%20to%20admit%20my%20child%20in%20your%20school." className="text-blue-400 text-xl hover:text-blue-600"><FaWhatsapp /></a>
           <a href="#" className="text-pink-500 text-xl hover:text-pink-700"><FaInstagram /></a>
          
         </motion.div>

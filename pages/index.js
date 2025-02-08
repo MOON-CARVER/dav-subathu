@@ -1,6 +1,16 @@
 import Announcements from "./components/Announcements";
 import Image from "next/image";
 
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});
+
 export default function Home() {
   return (
     <div>
@@ -15,9 +25,9 @@ export default function Home() {
             <p className="text-lg md:text-2xl mb-6">
               A place where learning meets excellence.
             </p>
-            <button className="bg-white text-blue-600 px-6 py-3 rounded-full shadow-lg hover:bg-blue-100 transition duration-300">
+            <a href="#explore" className="bg-white text-blue-600 px-6 py-3 rounded-full shadow-lg hover:bg-blue-100 transition duration-300">
               Explore Now
-            </button>
+            </a>
           </div>
         </section>
 
@@ -54,7 +64,7 @@ export default function Home() {
         {/* Features Section */}
         <section className="py-20 bg-white">
           <div className="container mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-8 text-gray-800">
+            <h2 className="text-3xl font-bold mb-8 text-gray-800" id="explore">
               Why Choose Us?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -112,9 +122,9 @@ export default function Home() {
             <p className="text-lg mb-6">
               Enroll now and be part of our thriving educational family!
             </p>
-            <button className="bg-white text-green-600 px-6 py-3 rounded-full shadow-lg hover:bg-gray-100 transition duration-300">
+            <a href="/contact" className="bg-white text-green-600 px-6 py-3 rounded-full shadow-lg hover:bg-gray-100 transition duration-300">
               Apply Now
-            </button>
+            </a>
           </div>
         </section>
       </div>

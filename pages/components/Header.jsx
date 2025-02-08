@@ -21,9 +21,9 @@ const Header = () => {
 
   return (
     <header className="bg-blue-600 text-white">
-      <nav className="container mx-auto flex items-center justify-between p-4">
+      <nav className="container mx-auto flex items-center justify-between p-1">
         <div className="flex items-center">
-          <Image src="/logo.jpg" alt="Site Logo" width={130} height={60} className="rounded-xl" />
+          <Image src="/logo.jpg" alt="Site Logo" width={80} height={40} className="rounded-xl" />
         </div>
 
         {/* Hamburger Menu Icon */}

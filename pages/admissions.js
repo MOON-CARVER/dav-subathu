@@ -120,9 +120,9 @@ const Admissions = () => {
               Don’t miss this opportunity to be part of a community that nurtures
               learning and growth.
             </p>
-            <button className="bg-white text-blue-600 px-6 py-3 rounded-lg shadow-lg hover:bg-gray-100 transition duration-300">
-              <a href="/contact">Apply Now</a>
-            </button>
+            <a href="/contact" className="bg-white text-blue-600 px-6 py-3 rounded-lg shadow-lg hover:bg-gray-100 transition duration-300">
+            Apply Now
+            </a>
           </div>
         </section>
       </div>
