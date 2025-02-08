@@ -10,7 +10,7 @@ const socialLinks = [
 const FloatingSidebar = () => {
   return (
     <motion.div
-      className="fixed right-0 top-1/3 flex flex-col gap-2 p-2 bg-gray-800 rounded-l-2xl shadow-lg"
+      className="fixed right-0 top-1/3 flex flex-col gap-2 p-2 bg-gray-800 rounded-l-2xl shadow-lg z-10"
       initial={{ x: -100, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
