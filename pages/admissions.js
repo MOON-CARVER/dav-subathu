@@ -121,7 +121,7 @@ const Admissions = () => {
               learning and growth.
             </p>
             <button className="bg-white text-blue-600 px-6 py-3 rounded-lg shadow-lg hover:bg-gray-100 transition duration-300">
-              Apply Now
+              <a href="/contact">Apply Now</a>
             </button>
           </div>
         </section>
