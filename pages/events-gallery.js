@@ -40,10 +40,10 @@ const EventsGallery = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
 
-            {myArray.map((item) => (
+            {myArray.map((key) => (
               <div className="p-1 bg-gray-100 border rounded-lg shadow-lg hover:shadow-xl transition duration-300">
                 <img
-                  src={`/annual-function/` + item}
+                  src={`/annual-function/` + key}
                   alt="Annual Function"
                   className="rounded-lg"
                 />

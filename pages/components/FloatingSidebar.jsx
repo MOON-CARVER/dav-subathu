@@ -15,16 +15,16 @@ const FloatingSidebar = () => {
       animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      {socialLinks.map((link) => (
+      {socialLinks.map((key) => (
         <motion.a
-          key={link.id}
-          href={link.url}
+          key={key.id}
+          href={key.url}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 p-2 text-white rounded-md hover:bg-gray-700 transition-colors"
           whileHover={{ scale: 1.1, x: 10 }}
         >
-          {link.icon}
+          {key.icon}
         </motion.a>
       ))}
     </motion.div>
