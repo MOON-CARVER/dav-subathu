@@ -1,9 +1,11 @@
 import Announcements from "./components/Announcements";
 import SmoothScroll from "./components/SmoothScroll";
+import WelcomeAnimation from "./components/WelcomeAnimation";
 
 export default function Home() {
   return (
     <div>
+       <WelcomeAnimation />
       <SmoothScroll />
       <h1 className="text-2xl font-bold">Welcome to D. A. V. Subathu</h1>
       <div >
