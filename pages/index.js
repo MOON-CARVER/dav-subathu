@@ -1,19 +1,10 @@
 import Announcements from "./components/Announcements";
-import Image from "next/image";
-
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-      });
-  });
-});
+import SmoothScroll from "./components/SmoothScroll";
 
 export default function Home() {
   return (
     <div>
+      <SmoothScroll />
       <h1 className="text-2xl font-bold">Welcome to D. A. V. Subathu</h1>
       <div >
         {/* Hero Section */}
@@ -130,6 +121,8 @@ export default function Home() {
       </div>
 
       <Announcements />
+
+      
 
     </div>
   );
