@@ -5,7 +5,7 @@ const Management = () => {
         <div className='flex flex-col gap-10'>
 
             {/* Chairman Section */}
-            <div className='flex justify-center gap-8'>
+            <div className='flex flex-col items-center justify-center gap-8' >
 
                 <img className="w-1/3 p-4" src="/Yashpal Thakur.png" alt="Sunset in the mountains" />
 
