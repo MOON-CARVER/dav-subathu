@@ -1,11 +1,9 @@
+import Image from "next/image";
 import SocialMenu from "./components/Social Media Menu";
 
 const EventsGallery = () => {
 
-  const myArray = ['Photo 1.JPG', 'Photo 2.JPG', 'Photo 3.JPG', 'Photo 4.JPG', 'Photo 5.JPG', 'Photo 6.JPG', 'Photo 7.JPG',
-    'Photo 8.JPG', 'Photo 9.JPG', 'Photo 10.JPG', 'Photo 11.JPG', 'Photo 12.JPG', 'Photo 13.JPG', 'Photo 14.JPG'
-  ];
-
+  const myArray = ['Photo 1.JPG', 'Photo 2.JPG', 'Photo 3.JPG', 'Photo 4.JPG', 'Photo 5.JPG', 'Photo 6.JPG']
 
 
   return (
@@ -42,10 +40,12 @@ const EventsGallery = () => {
 
             {myArray.map((key) => (
               <div className="p-1 bg-gray-100 border rounded-lg shadow-lg hover:shadow-xl transition duration-300">
-                <img
+                <Image
                   src={`/annual-function/` + key}
                   alt="Annual Function"
                   className="rounded-lg"
+                  height={500}
+                  width={500}
                 />
 
               </div>

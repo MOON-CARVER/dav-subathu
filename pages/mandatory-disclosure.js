@@ -23,9 +23,9 @@ const MandatoryDisclosure = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* Document 1 */}
               <div className="p-6 bg-white border rounded-lg shadow-lg flex items-center justify-between hover:shadow-xl transition duration-300">
-                <h3 className="text-xl font-semibold text-blue-600"> Rent Deed Endorsement</h3>
+                <h3 className="text-xl font-semibold text-blue-600"> Society Registration Certificate</h3>
                 <a
-                  href="/pdfs/Rent Deed Endorsement.pdf"
+                  href="/pdfs/society registration certificate and memoredum of association.pdf"
                   target="_blank"
                   className="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"
                 >
@@ -146,7 +146,7 @@ const MandatoryDisclosure = () => {
               <div className="p-6 bg-white border rounded-lg shadow-lg flex items-center justify-between hover:shadow-xl transition duration-300">
                 <h3 className="text-xl font-semibold text-blue-600">Fire Safety Certificate</h3>
                 <a
-                  href="/pdfs/Academic calendar 2025-26.pdf"
+                  href="/pdfs/Fire safety certificate.pdf"
                   target="_blank"
                   className="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"
                 >
