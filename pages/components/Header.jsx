@@ -24,15 +24,15 @@ const Header = () => {
     <header className="bg-blue-600 text-white">
       <nav className="container mx-auto flex items-center justify-between p-1">
         <div className="flex items-center">
-          <Image src="/logo.jpg" alt="Site Logo" width={80} height={40} className="rounded-xl" />
+         <Link href={'/'}> <Image src="/logo.jpg" alt="Site Logo" width={80} height={40} className="rounded-xl" /></Link>
         </div>
 
         {/* Hamburger Menu Icon */}
         <button
-          className="text-white lg:hidden p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-white"
+          className="text-white lg:hidden p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-white flex"
           onClick={toggleMenu}
         >
-          {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}<p className="font-semibold">Menu</p>
         </button>
 
         {/* Desktop Navigation */}
@@ -40,9 +40,9 @@ const Header = () => {
           {navItems.map((item) => (
             <li
               key={item.path}
-              className="bg-transparent hover:bg-white hover:text-blue-800 py-2 px-4 rounded-lg"
+              className=""
             >
-              <Link href={item.path}>{item.name}</Link>
+              <Link className=" hover:bg-white hover:text-blue-800 py-2 px-3 rounded-lg" href={item.path}>{item.name}</Link>
             </li>
           ))}
         </ul>

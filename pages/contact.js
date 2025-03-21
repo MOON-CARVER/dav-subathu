@@ -2,7 +2,6 @@ import { FaPhone } from "react-icons/fa6";
 import { IoMailSharp } from "react-icons/io5";
 import { IoLocation } from "react-icons/io5";
 
-
 export default function Contact() {
     return (
         <div>
@@ -26,7 +25,7 @@ export default function Contact() {
               <h2 className="text-3xl font-bold mb-6 text-gray-800">
                 Send Us a Message
               </h2>
-              <form className="space-y-6">
+              <form className="space-y-6" >
                 <div>
                   <label
                     htmlFor="name"

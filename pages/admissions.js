@@ -62,48 +62,44 @@ const Admissions = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               {/* Feature 1 */}
-              <div className="p-6 border rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+              <div className="p-6 border rounded-lg shadow hover:shadow-lg transition duration-300">
                 <img
-                  src="/icons/academic.png"
+                  src="/Academic_Excellence.jpg"
                   alt="Academic Excellence"
-                  className="w-16 mx-auto mb-4"
+                  className="w-full mx-auto mb-2"
                 />
-                <h3 className="text-xl font-semibold mb-2 text-gray-800">
-                  Academic Excellence
-                </h3>
+                <h3 className="text-xl font-semibold mb-2">Academic Excellence</h3>
                 <p className="text-gray-600">
-                  We offer a robust curriculum that prepares students for success
-                  in life and academics.
+                  Our curriculum is designed to inspire creativity and critical
+                  thinking.
                 </p>
               </div>
+
               {/* Feature 2 */}
-              <div className="p-6 border rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+              <div className="p-6 border rounded-lg shadow hover:shadow-lg transition duration-300">
                 <img
-                  src="/icons/sports.png"
-                  alt="Extracurricular Opportunities"
-                  className="w-16 mx-auto mb-4"
+                  src="/ExtraCurricular.jpg"
+                  alt="Extracurricular Activities"
+                  className="w-full mx-auto mb-2"
                 />
-                <h3 className="text-xl font-semibold mb-2 text-gray-800">
-                  Extracurricular Opportunities
+                <h3 className="text-xl font-semibold mb-2">
+                  Extracurricular Activities
                 </h3>
                 <p className="text-gray-600">
-                  From sports to arts, we encourage holistic development and
-                  foster creativity.
+                  From sports to arts, we provide a holistic learning experience.
                 </p>
               </div>
+
               {/* Feature 3 */}
-              <div className="p-6 border rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+              <div className="p-6 border rounded-lg shadow hover:shadow-lg transition duration-300">
                 <img
-                  src="/icons/faculty.png"
-                  alt="Expert Faculty"
-                  className="w-16 mx-auto mb-4"
+                  src="/Expert_teachers.png"
+                  alt="Expert Teachers"
+                  className="w-full mx-auto mb-2"
                 />
-                <h3 className="text-xl font-semibold mb-2 text-gray-800">
-                  Expert Faculty
-                </h3>
+                <h3 className="text-xl font-semibold mb-2">Expert Teachers</h3>
                 <p className="text-gray-600">
-                  Learn from dedicated and experienced educators who care about
-                  your success.
+                  Our dedicated and experienced staff ensure quality education.
                 </p>
               </div>
             </div>
