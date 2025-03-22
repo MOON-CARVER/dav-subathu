@@ -14,6 +14,16 @@ const MandatoryDisclosure = () => {
       {/* Document Links Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto">
+          {/* Document 1 */}
+            <div className="p-6 bg-white border rounded-lg shadow-lg flex items-center justify-between hover:shadow-xl transition duration-300">
+              <a
+                href="/pdfs/Mandatory Disclosure Details.pdf"
+                target="_blank"
+                className="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"
+              >
+                Mandatory Disclosure Document by SARAS
+              </a>
+            </div>
           <h2 className="text-3xl font-bold mb-8 text-gray-800 text-center">
             Important Documents
           </h2>
