@@ -54,17 +54,7 @@ const MandatoryDisclosure = () => {
                 View PDF
               </a>
             </div>
-            {/* Document 4 */}
-            <div className="p-6 bg-white border rounded-lg shadow-lg flex items-center justify-between hover:shadow-xl transition duration-300">
-              <h3 className="text-xl font-semibold text-blue-600">Fee Structure</h3>
-              <a
-                href="/pdfs/fee-structure.pdf"
-                target="_blank"
-                className="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"
-              >
-                View PDF
-              </a>
-            </div>
+
             {/* Document 5 */}
             <div className="p-6 bg-white border rounded-lg shadow-lg flex items-center justify-between hover:shadow-xl transition duration-300">
               <h3 className="text-xl font-semibold text-blue-600"> Affidavit of Non-Proprietary Character</h3>
@@ -98,17 +88,7 @@ const MandatoryDisclosure = () => {
                 View PDF
               </a>
             </div>
-            {/* Document 8 */}
-            <div className="p-6 bg-white border rounded-lg shadow-lg flex items-center justify-between hover:shadow-xl transition duration-300">
-              <h3 className="text-xl font-semibold text-blue-600">Sanitation Certificate</h3>
-              <a
-                href="/pdfs/sanitation certificate.pdf"
-                target="_blank"
-                className="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"
-              >
-                View PDF
-              </a>
-            </div>
+
             {/* Document 9 */}
             <div className="p-6 bg-white border rounded-lg shadow-lg flex items-center justify-between hover:shadow-xl transition duration-300">
               <h3 className="text-xl font-semibold text-blue-600">Enrollment of Students</h3>
@@ -133,9 +113,9 @@ const MandatoryDisclosure = () => {
             </div>
             {/* Document 11 */}
             <div className="p-6 bg-white border rounded-lg shadow-lg flex items-center justify-between hover:shadow-xl transition duration-300">
-              <h3 className="text-xl font-semibold text-blue-600">Safe Drinking Water Certificate</h3>
+              <h3 className="text-xl font-semibold text-blue-600">Safe Drinking Water and Sanitation Certificate</h3>
               <a
-                href="/pdfs/Safe drinking water certificate.pdf"
+                href="/pdfs/water and sanitation certificate.pdf"
                 target="_blank"
                 className="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"
               >
@@ -211,6 +191,17 @@ const MandatoryDisclosure = () => {
               </a>
             </div>
 
+            {/* Document 18 */}
+            <div className="p-6 bg-white border rounded-lg shadow-lg flex items-center justify-between hover:shadow-xl transition duration-300">
+              <h3 className="text-xl font-semibold text-blue-600">DEO Certificate</h3>
+              <a
+                href="/pdfs/DEO Certificate.pdf"
+                target="_blank"
+                className="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"
+              >
+                View PDF
+              </a>
+            </div>
           </div>
 
 
