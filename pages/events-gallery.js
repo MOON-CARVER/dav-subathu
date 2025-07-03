@@ -85,13 +85,19 @@ const EventsGallery = () => {
               <h1 className="text-xl font-bold m-3"> Rangoli Activity           </h1>
             </div>
 
-             {/* Image 3 */}
+             {/* Latest */}
              <div className="flex flex-col border rounded-xl shadow-lg hover:shadow-xl transition duration-300">
               <img
                 src="/recent-activities/dussehra.jpg"
                 alt="Dussehra Activity"
               />
               <h1 className="text-xl font-bold m-3"> Dussehra Activity  </h1>
+            </div>
+            <div className="flex flex-col border rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+              <video controls width="800">        
+                <source src="/recent-activities/DAV Subathu Inspection 2024-25.mp4"  type="video/mp4"></source>
+              </video>
+              <h1 className="text-xl font-bold m-3"> DAV Subathu School Inspection 2024-25  </h1>
             </div>
 
 
