@@ -94,9 +94,10 @@ const EventsGallery = () => {
               <h1 className="text-xl font-bold m-3"> Dussehra Activity  </h1>
             </div>
             <div className="flex flex-col border rounded-xl shadow-lg hover:shadow-xl transition duration-300">
-              <video controls width="800">        
+              <iframe src="https://www.facebook.com/share/v/1Ak9iLrzwR/"  allowFullScreen />
+              {/* <video controls width="800">        
                 <source src="/recent-activities/DAV Subathu Inspection 2024-25.mp4"  type="video/mp4"></source>
-              </video>
+              </video> */}
               <h1 className="text-xl font-bold m-3"> DAV Subathu School Inspection 2024-25  </h1>
             </div>
 
