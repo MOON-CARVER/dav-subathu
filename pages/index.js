@@ -1,4 +1,5 @@
 import Announcements from "./components/Announcements";
+import SchoolAnnouncements from "./components/SchoolAnnouncements";
 import SmoothScroll from "./components/SmoothScroll";
 import WelcomeAnimation from "./components/WelcomeAnimation";
 
@@ -50,7 +51,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">
               Announcements
             </h2>
-            <Announcements />
+            <SchoolAnnouncements />
           </div>
         </section>
 

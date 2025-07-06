@@ -71,7 +71,7 @@ const Infrastructure = () => {
               {/* Facility 4 */}
               <div className="p-6 bg-white border rounded-lg shadow-lg hover:shadow-xl transition duration-300">
                 <img
-                  src="/Science Lab.png"
+                  src="/Computer Lab.png"
                   alt="Computer Lab"
                   className="rounded-lg mb-4"
                 />
@@ -79,14 +79,13 @@ const Infrastructure = () => {
                   Computer Lab
                 </h3>
                 <p className="text-gray-600">
-                  Fully equipped labs for physics, chemistry, and biology to
-                  encourage hands-on learning.
+                  A fully equipped space for hands-on learning in computing and digital skills.
                 </p>
               </div>
               {/* Facility 5 */}
               <div className="p-6 bg-white border rounded-lg shadow-lg hover:shadow-xl transition duration-300">
                 <img
-                  src="/Science Lab.png"
+                  src="/Activity Room.png"
                   alt="Activity Room"
                   className="rounded-lg mb-4"
                 />
@@ -94,23 +93,21 @@ const Infrastructure = () => {
                   Interactive Activity Room
                 </h3>
                 <p className="text-gray-600">
-                  Fully equipped labs for physics, chemistry, and biology to
-                  encourage hands-on learning.
+                  Where fun meets learning – the perfect place to explore, play, and grow!
                 </p>
               </div>
               {/* Facility 6 */}
               <div className="p-6 bg-white border rounded-lg shadow-lg hover:shadow-xl transition duration-300">
                 <img
-                  src="/Science Lab.png"
-                  alt="Music Room"
+                  src="/Music Room.png"
+                  alt="Music and Dance Room"
                   className="rounded-lg mb-4"
                 />
                 <h3 className="text-xl font-semibold mb-2 text-indigo-600">
                   Music and Dance Room
                 </h3>
                 <p className="text-gray-600">
-                  Fully equipped labs for physics, chemistry, and biology to
-                  encourage hands-on learning.
+                  Feel the beat, express the soul – where music and dance come to life!
                 </p>
               </div>
             </div>
