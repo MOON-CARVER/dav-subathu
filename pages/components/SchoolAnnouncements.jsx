@@ -5,24 +5,42 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const announcements = [
   {
+    id: 7,
+    title: "PTM",
+    date: "July 19, 2025",
+  },
+
+  {
     id: 1,
     title: "Admissions Open for 2025–26 Academic Year",
-    date: "July 1, 2025",
+    date: "Present",
   },
   {
     id: 2,
-    title: "Independence Day Celebration on August 15th",
-    date: "June 28, 2025",
+    title: "Independence Day Celebration",
+    date: "August 15, 2025",
   },
   {
     id: 3,
-    title: "Annual Sports Meet Scheduled for September 20",
-    date: "June 20, 2025",
+    title: `Haryali Teej (Special Assembly) 
+    LKG-II (Teej Celebration *Tradtitional Day* Mehandi)
+    III-IX (IH Mehandi Competition)`,
+    date: "August 23, 2025",
   },
   {
     id: 4,
-    title: "Parent-Teacher Meeting on August 10",
-    date: "July 5, 2025",
+    title: "Ganesh Chaturthi (Special Assembly)",
+    date: "August 27, 2025",
+  },
+    {
+    id: 5,
+    title: "National Sports Day",
+    date: "August 29, 2025",
+  },
+    {
+    id: 6,
+    title: "Interhouse Sports Competition (Matches of Kabbadi and Kho-Kho)",
+    date: "August 30, 2025",
   },
 ];
 
@@ -64,7 +82,7 @@ const SchoolAnnouncements = () => {
                 key={item.id + "-copy"}
                 className="bg-white shadow-md border-l-4 border-blue-600 p-4 rounded-md w-full"
               >
-                <h3 className="text-lg font-semibold text-gray-800">
+                <h3 className="text-lg font-semibold text-gray-800 display-linebreak">
                   {item.title}
                 </h3>
                 <p className="text-sm text-gray-500">{item.date}</p>

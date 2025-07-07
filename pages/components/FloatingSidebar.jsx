@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
-import { FaFacebook, FaWhatsapp, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaWhatsapp, } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa6";
 
 const socialLinks = [
-  { id: 1, icon: <FaFacebook />, url: "https://facebook.com" },
+  { id: 1, icon: <FaFacebook />, url: "https://www.facebook.com/share/1HgF1Wd8VF/" },
   { id: 2, icon: <FaWhatsapp />, url: "https://wa.me/9317427672?text=Hy%2C%0AI%20am%20interested%20to%20admit%20my%20child%20in%20your%20school." },
-  { id: 3, icon: <FaInstagram />, url: "https://instagram.com" },
+  { id: 3, icon: <FaYoutube />, url: "https://youtube.com/@devbhoomiadarshvidyalaya" },
 ];
 
 const FloatingSidebar = () => {

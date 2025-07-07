@@ -6,7 +6,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
 } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa6";
+import { FaWhatsapp, FaYoutube } from "react-icons/fa6";
 
 const SchoolFooter = () => {
   return (
@@ -40,14 +40,14 @@ const SchoolFooter = () => {
 
         {/* Social Media Icons */}
         <div className="flex space-x-6">
-          <a href="https://facebook.com" target="_blank" aria-label="Facebook" className="hover:text-yellow-400">
+          <a href="https://www.facebook.com/share/1HgF1Wd8VF/" target="_blank" aria-label="Facebook" className="hover:text-yellow-400">
             <FaFacebookF size={20} />
           </a>
           <a href="https://wa.me/9317427672?text=Hy%2C%0AI%20am%20interested%20to%20admit%20my%20child%20in%20your%20school." target="_blank" aria-label="Twitter" className="hover:text-yellow-400">
             <FaWhatsapp size={20} />
           </a>
-          <a href="https://instagram.com" target="_blank" aria-label="Instagram" className="hover:text-yellow-400">
-            <FaInstagram size={20} />
+          <a href="https://youtube.com/@devbhoomiadarshvidyalaya" target="_blank" aria-label="Instagram" className="hover:text-yellow-400">
+            <FaYoutube size={20} />
           </a>
         </div>
       </div>
