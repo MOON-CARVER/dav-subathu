@@ -22,14 +22,12 @@ const announcements = [
   },
   {
     id: 3,
-    title: `Haryali Teej (Special Assembly) 
-    LKG-II (Teej Celebration *Tradtitional Day* Mehandi)
-    III-IX (IH Mehandi Competition)`,
+    title: `Haryali Teej`,
     date: "August 23, 2025",
   },
   {
     id: 4,
-    title: "Ganesh Chaturthi (Special Assembly)",
+    title: "Ganesh Chaturthi",
     date: "August 27, 2025",
   },
     {
@@ -39,7 +37,7 @@ const announcements = [
   },
     {
     id: 6,
-    title: "Interhouse Sports Competition (Matches of Kabbadi and Kho-Kho)",
+    title: "Interhouse Sports Competition",
     date: "August 30, 2025",
   },
 ];
