@@ -60,12 +60,12 @@ const WelcomeAnimation = () => {
             Welcome to
           </motion.h1>
           <motion.h2
-            className="text-5xl md:text-7xl font-extrabold mt-2"
+            className="text-3xl md:text-5xl font-extrabold mt-2"
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            D. A. V. Subathu
+            D. A. V. (Devbhoomi Adarsh Vidyalya) Subathu
           </motion.h2>
         </motion.div>
       )}

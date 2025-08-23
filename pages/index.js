@@ -8,13 +8,13 @@ export default function Home() {
     <div>
        <WelcomeAnimation />
       <SmoothScroll />
-      <h1 className="text-2xl font-bold">Welcome to D. A. V. Subathu</h1>
+      <h1 className="text-2xl font-bold">Welcome to D. A. V. (Devbhoomi Adarsh Vidyalya) Subathu</h1>
       <div >
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20">
           <div className="container mx-auto text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-pulse">
-              Welcome to D. A. V. Subathu
+            <h1 className="text-3xl md:text-5xl font-bold mb-4 animate-pulse">
+              D. A. V. (Devbhoomi Adarsh Vidyalya) Subathu
             </h1>
             <p className="text-lg md:text-2xl mb-6 animate-bounce">
               A place where learning meets excellence.
