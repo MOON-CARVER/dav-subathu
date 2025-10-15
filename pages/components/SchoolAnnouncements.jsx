@@ -5,12 +5,6 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const announcements = [
   {
-    id: 7,
-    title: "PTM",
-    date: "July 19, 2025",
-  },
-
-  {
     id: 1,
     title: "Admissions Open for 2025–26 Academic Year",
     date: "Present",
@@ -40,6 +34,42 @@ const announcements = [
     title: "Interhouse Sports Competition",
     date: "August 30, 2025",
   },
+    {
+    id: 7,
+    title: "Dushera Celebration",
+    date: "October 1 , 2025",
+  },
+    {
+    id: 8,
+    title: "Vaccination Drive",
+    date: "October 16, 2025",
+  },
+    {
+    id: 9,
+    title: "Diwali Celebration",
+    date: "October 18, 2025",
+  },
+    {
+    id: 10,
+    title: "Diwali Break",
+    date: "October 20 - 22, 2025",
+  },
+  {
+    id: 11,
+    title: "Guru Nanak Jayanti Celebration",
+    date: "November 4 , 2025",
+  },
+  {
+    id: 12,
+    title: "Annual Day",
+    date: "November 11, 2025",
+  },
+  {
+    id: 13,
+    title: "Annual Day",
+    date: "November 11, 2025",
+  },
+  
 ];
 
 const SchoolAnnouncements = () => {
@@ -53,12 +83,12 @@ const SchoolAnnouncements = () => {
           </h2>
         </div>
 
-        <div className="relative h-32 overflow-hidden">
+        <div className="relative h-48 overflow-hidden">
           <motion.div
             className="space-y-4"
-            animate={{ y: ["0%", "-100%"] }}
+            animate={{ y: ["0%", "-300%"] }}
             transition={{
-              duration: announcements.length * 6,
+              duration: announcements.length * 9,
               ease: "linear",
               repeat: Infinity,
             }}
