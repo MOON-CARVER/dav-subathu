@@ -16,14 +16,15 @@ export default function Home() {
           <section className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20">
             <div className="container mx-auto text-center">
               <h1 className="text-3xl md:text-5xl font-bold mb-4 animate-pulse">
-                D. A. V. (Devbhoomi Adarsh Vidyalya) Subathu
+                DAV SUBATHU 
               </h1>
+                            <h2 className="text-2xl md:text-4xl font-semibold">
+                Affiliated to CBSE New Delhi
+              </h2>
               <p className="text-lg md:text-2xl mb-6 animate-bounce">
-                A place where learning meets excellence.
+                Affiliation NO. 630374
               </p>
-              <a href="#explore" className="bg-white text-blue-600 px-6 py-3 rounded-full shadow-lg hover:bg-blue-100 transition duration-300">
-                Explore Now
-              </a>
+              
             </div>
           </section>
 
@@ -38,7 +39,7 @@ export default function Home() {
                   src="/DAV_School.jpg"
                   class="max-w-full"
                   alt="Louvre" />
-                <a href="#!">
+                <a href="www.davsubathu.com">
                   <div
                     class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
                 </a>

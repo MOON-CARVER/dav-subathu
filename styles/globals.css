@@ -40,3 +40,63 @@ body {
 .animate-fadeIn {
   animation: fadeIn 0.3s ease-out forwards;
 }
+/* Events Carousel Styles */
+.events-carousel-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+}
+
+.events-carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.carousel-card {
+  flex: 0 0 300px;
+  background: #fff;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  position: relative;
+}
+
+.carousel-card:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.15);
+}
+
+.carousel-card.expanded {
+  z-index: 2;
+  transform: scale(1.08);
+  box-shadow: 0 8px 32px rgba(99, 102, 241, 0.18);
+}
+
+.carousel-thumbnail {
+  width: 100%;
+  max-width: 260px;
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+  object-fit: cover;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.carousel-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #3730a3;
+  margin-top: 0.5rem;
+  text-align: center;
+}
