@@ -1,5 +1,5 @@
 import SocialMenu from "./components/Social Media Menu";
-import { Timeline } from "./components/timeline";
+import  Timeline  from "./components/Timeline";
 
 import YouTube from "react-youtube";
 const timelineData = [
