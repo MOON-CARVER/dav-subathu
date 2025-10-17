@@ -28,8 +28,7 @@ const SchoolFooter = () => {
           Shaping Bright Futures
         </h2>
         <p className="max-w-2xl text-base md:text-lg mb-6">
-          Our school is committed to providing quality education in a nurturing
-          environment. We empower students with knowledge, values, and life
+          Affiliated to CBSE with Affiliation No. 630374. We empower students with knowledge, values, and life
           skills.
         </p>
 
