@@ -4,7 +4,7 @@ import  Timeline  from "./components/Timeline";
 import YouTube from "react-youtube";
 const timelineData = [
     {
-    title: "Dushera Activity",
+    title: "Dussehra Activity",
     content: (
      <YouTube videoId="UBx7wxwadas" />
       
