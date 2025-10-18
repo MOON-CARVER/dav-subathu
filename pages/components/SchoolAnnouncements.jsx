@@ -52,7 +52,7 @@ const announcements = [
     {
     id: 10,
     title: "Diwali Break",
-    date: "October 20 - 22, 2025",
+    date: "October 20 - 23, 2025",
   },
   {
     id: 11,
@@ -62,13 +62,9 @@ const announcements = [
   {
     id: 12,
     title: "Annual Day",
-    date: "November 11, 2025",
+    date: "November 09, 2025",
   },
-  {
-    id: 13,
-    title: "Annual Day",
-    date: "November 11, 2025",
-  },
+  
   
 ];
 

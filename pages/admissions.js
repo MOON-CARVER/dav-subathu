@@ -5,7 +5,7 @@ const Admissions = () => {
         <section className="bg-gradient-to-r from-green-500 to-blue-500 text-white py-20">
           <div className="container mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Admissions Open for 2025
+              Admissions Open for 2026
             </h1>
             <p className="text-lg md:text-xl">
               Join our vibrant community of learners. Applications are now open!
