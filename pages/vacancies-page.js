@@ -4,16 +4,16 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const jobs = [
-  {
-    title: "TGT Science",
-    department: "Academics",
-    location: "High School Wing",
-    type: "Full-Time",
-    qualifications: "Bachelor’s Degree from a recognized university with at least 50% marks in aggregate as well in the concerned subjects. B.Ed. or any equivalent degree from a recognized University. Should pass TET/CTET. In Hindi and English Medium Proficiency in teaching.",
-    vacancies: 1,
-    description:
-      "We are seeking a qualified Science Teacher with experience in CBSE curriculum. Strong communication and classroom management skills are essential.",
-  },
+  // {
+  //   title: "TGT Science",
+  //   department: "Academics",
+  //   location: "High School Wing",
+  //   type: "Full-Time",
+  //   qualifications: "Bachelor’s Degree from a recognized university with at least 50% marks in aggregate as well in the concerned subjects. B.Ed. or any equivalent degree from a recognized University. Should pass TET/CTET. In Hindi and English Medium Proficiency in teaching.",
+  //   vacancies: 1,
+  //   description:
+  //     "We are seeking a qualified Science Teacher with experience in CBSE curriculum. Strong communication and classroom management skills are essential.",
+  // },
   // {
   //   title: "Physics Lab Assistant",
   //   department: "Laboratory",
@@ -44,47 +44,47 @@ const jobs = [
   //   description:
   //     "Manage front desk operations, assist visitors, and coordinate communication for the administration department.",
   // },
-  {
-    title: "TGT Arts and Craft",
-    department: "Academics",
-    location: "High School Wing",
-    type: "Full-Time",
-    qualifications: "Graduate with drawing & Painting/Art/Fine Art with minimum two years full time diploma from a recognized institute. Or MA in Drawing and Painting/Fine Arts from a recognized University.",
-    vacancies: 1,
-    description:
-      "We are seeking a qualified Arts & Craft Teacher with experience in CBSE curriculum. Strong communication and classroom management skills are essential.",
-  },
-  {
-    title: "TGT Hindi (L.T)",
-    department: "Academics",
-    location: "High School Wing",
-    type: "Full-Time",
-    qualifications: "Bachelor’s Degree from a recognized university with at least 50% marks in aggregate as well in the concerned subjects. B.Ed. or any equivalent degree from a recognized University. Should pass TET/CTET. In Hindi and English Medium Proficiency in teaching.",
-    vacancies: 1,
-    description:
-      "We are seeking a qualified Hindi Teacher with experience in CBSE curriculum. Strong communication and classroom management skills are essential.",
-  },
-  {
-    title: "TGT English (L.T)",
-    department: "Academics",
-    location: "High School Wing",
-    type: "Full-Time",
-    qualifications: "Bachelor’s Degree from a recognized university with at least 50% marks in aggregate as well in the concerned subjects. B.Ed. or any equivalent degree from a recognized University. Should pass TET/CTET. In Hindi and English Medium Proficiency in teaching.",
-    vacancies: 1,
-    description:
-      "We are seeking a qualified English Teacher with experience in CBSE curriculum. Strong communication and classroom management skills are essential.",
-  },
-  {
-    title: "IT Teacher",
-    department: "Academics",
-    location: "High School Wing",
-    type: "Full-Time",
-    qualifications: `At least 50% marks in aggregate in any of the following: BCA/MCA /B.Tech.(CSE/IT), B.Sc (Computer Science).
-    (Experience:- minimum 2 year)`,
-    vacancies: 1,
-    description:
-      "We are seeking a qualified IT Teacher with experience in CBSE curriculum. Strong communication and classroom management skills are essential.",
-  },
+  // {
+  //   title: "TGT Arts and Craft",
+  //   department: "Academics",
+  //   location: "High School Wing",
+  //   type: "Full-Time",
+  //   qualifications: "Graduate with drawing & Painting/Art/Fine Art with minimum two years full time diploma from a recognized institute. Or MA in Drawing and Painting/Fine Arts from a recognized University.",
+  //   vacancies: 1,
+  //   description:
+  //     "We are seeking a qualified Arts & Craft Teacher with experience in CBSE curriculum. Strong communication and classroom management skills are essential.",
+  // },
+  // {
+  //   title: "TGT Hindi (L.T)",
+  //   department: "Academics",
+  //   location: "High School Wing",
+  //   type: "Full-Time",
+  //   qualifications: "Bachelor’s Degree from a recognized university with at least 50% marks in aggregate as well in the concerned subjects. B.Ed. or any equivalent degree from a recognized University. Should pass TET/CTET. In Hindi and English Medium Proficiency in teaching.",
+  //   vacancies: 1,
+  //   description:
+  //     "We are seeking a qualified Hindi Teacher with experience in CBSE curriculum. Strong communication and classroom management skills are essential.",
+  // },
+  // {
+  //   title: "TGT English (L.T)",
+  //   department: "Academics",
+  //   location: "High School Wing",
+  //   type: "Full-Time",
+  //   qualifications: "Bachelor’s Degree from a recognized university with at least 50% marks in aggregate as well in the concerned subjects. B.Ed. or any equivalent degree from a recognized University. Should pass TET/CTET. In Hindi and English Medium Proficiency in teaching.",
+  //   vacancies: 1,
+  //   description:
+  //     "We are seeking a qualified English Teacher with experience in CBSE curriculum. Strong communication and classroom management skills are essential.",
+  // },
+  // {
+  //   title: "IT Teacher",
+  //   department: "Academics",
+  //   location: "High School Wing",
+  //   type: "Full-Time",
+  //   qualifications: `At least 50% marks in aggregate in any of the following: BCA/MCA /B.Tech.(CSE/IT), B.Sc (Computer Science).
+  //   (Experience:- minimum 2 year)`,
+  //   vacancies: 1,
+  //   description:
+  //     "We are seeking a qualified IT Teacher with experience in CBSE curriculum. Strong communication and classroom management skills are essential.",
+  // },
 ];
 
 export default function VacanciesPage() {
@@ -203,10 +203,12 @@ export default function VacanciesPage() {
           </motion.div>
         )}
       </AnimatePresence>
+
+{/*       
       <h1 className="text-2xl font-bold text-blue-800 text-center my-8">
         Selection Process
       </h1>
-      <p className="text-center text-gray-600 mb-8 font-bold">
+      {/* <p className="text-center text-gray-600 mb-8 font-bold">
         Applicants are requested to fill in the Interview Application Form duly completing in all respects. The completed application form has to be submitted at the venue of the interview for verification along with original documents, one set of self-attested copies of requisite documents and two recent passport size photographs. Interview will be conducted and based on the credentials & performance in the personal interview the applicants will be shortlisted.
       </p>
 
@@ -219,6 +221,9 @@ export default function VacanciesPage() {
         </br> or by Speed Post on School address. <br></br>
         The date of interview will be given through email/whatsapp and telephone information.
       </p>
+ */ }
+
+
     </div>
   );
 }
