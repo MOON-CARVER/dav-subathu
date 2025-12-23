@@ -92,7 +92,7 @@ const jobs = [
      {
     title: "PTI",
     department: "Academics",
-    location: "Primary Wing",
+    location: "High School Wing",
     type: "Full-Time",
     qualifications: "Bachelor’s degree in Physical Education (B.P.Ed) OR Graduate (any subject) with a diploma/certificate in Physical Education (e.g., D.P.Ed / C.P.Ed). OR Post-graduate in Physical Education (M.P.Ed) ",
     vacancies: 1,
